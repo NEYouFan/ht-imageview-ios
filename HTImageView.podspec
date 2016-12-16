@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'SDWebImage', '~> 3.7.3'
 
-  s.source       = { :git => "https://github.com/NEYouFan/HTImageView-iOS.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/NEYouFan/HTImageView-iOS.git", :tag => s.version.to_s }
 
   s.source_files  = "HTImageView/*.{h,m}"
 
