@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTImageView"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of HTImageView."
+  s.version      = "0.0.2"
+  s.summary      = "网易标准化控件库之 HTImageView."
 
   s.description  = <<-DESC
                    A longer description of HTImageView in Markdown format.
                    DESC
 
-  s.homepage     = "https://github.com/NEYouFan/HTImageView-iOS"
+  s.homepage     = "https://github.com/NEYouFan/ht-imageview-ios"
 
 
   s.license      = "MIT"
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'SDWebImage', '~> 3.7.3'
 
-  s.source       = { :git => "https://github.com/NEYouFan/HTImageView-iOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/NEYouFan/ht-imageview-ios.git", :tag => s.version.to_s }
 
   s.source_files  = "HTImageView/*.{h,m}"
 
